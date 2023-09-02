@@ -1,0 +1,12 @@
+<div class="ProductList" *ngIf="product">
+    <h4>{{product.title}}</h4>
+    <p>{{product.description}}</p>
+   <!-- <p>Quantity:{{prod.quantity}}</p>-->
+   
+   <div [ngSwitch]="product.quantity">
+        <p *ngSwitchCase="0">Out Of Stock</p>
+        <p *ngSwitchDefault>Available: {{product.quantity}}</p>
+    </div>
+    <input type="number" [(ngModel)]="product.quantity" min="0">
+      
+</div>

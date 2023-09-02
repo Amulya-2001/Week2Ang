@@ -1,0 +1,25 @@
+form{
+	padding: 6%;
+  padding-left:2%;
+	font-weight: bold;
+	margin: 10% 28% 8% 28%;
+	font-size: 15px;
+	box-shadow: 3px 3px 3px  #ccc;
+	border: 0.5px solid #ccc;
+  text-align: center;
+  background-color:  #f46fa4;
+  color: #fff;
+  border-radius: 30px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+  input,textarea{
+    margin-left: 8px;
+  }
+  button{
+    text-align: center;
+    margin-left: 80px;
+  }
